@@ -1,0 +1,100 @@
+/* Styles de base */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff5f5;
+    color: #333;
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* Bar en haut avec le nom de l'éditeur */
+.top-bar {
+    border: turquoise solid;
+    width: 12%;
+    color: rgb(154, 187, 19);
+    padding: 10px;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+/* Entête */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #b80d77; /* Rouge */
+    color: white;
+    border-bottom: 5px solid #cc0000; /* Rouge foncé */
+}
+
+header .logo-container {
+    margin-bottom: 15px;
+}
+
+header .logo-container img {
+    max-width: 150px;
+    height: auto;
+    background-color: #f0f0f0;
+}
+
+header .university {
+    margin-bottom: 15px;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+header h1 {
+    font-size: 2.2rem;
+}
+
+header h2 {
+    font-size: 1.5rem;
+}
+
+header p {
+    font-size: 1rem;
+    margin: 5px 0 0;
+}
+
+/* Section Exercice */
+section.exercise {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #cc0000; /* Rouge foncé */
+}
+
+section h3 {
+    font-size: 1.4rem;
+    color: #cc0000; /* Rouge foncé */
+    margin-bottom: 10px;
+}
+
+section p, section ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #cc0000;
+    color: white;
+    font-size: 0.9rem;
+}
